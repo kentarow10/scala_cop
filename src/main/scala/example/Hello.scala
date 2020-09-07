@@ -1,8 +1,12 @@
 package example
 
-object Hello extends App {
+object Hello {
   NextStep.run
 }
+
+// object Hello extends App {
+//   NextStep.run
+// }
 
 object FirstStep {
   def run () = {
